@@ -12,7 +12,15 @@ void INSERTIONSORT (int *vet)
 
 int main ()
 {
-	int vet[5]={1,2,5,3,4};
+	int vet[5]={9,2,5,-1,4};
+	
+	INSERTIONSORT (vet);
+	
+	
+	for (int i = 0;  i<5;  i++)
+	{
+		std::cout<<vet[i]<<" ";
+	}
 	
 	
 }
